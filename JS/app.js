@@ -36,7 +36,7 @@ function validarFormulario(e) {
                 document.querySelector('#apellido').classList.add('incorrecto')
                 document.querySelector('#apellido').classList.remove('correcto')
             }
-            // break;
+            break;
         case 'telefono':
             if(validarNumeros.test(e.target.value)){
                 console.log('Campo válido')
