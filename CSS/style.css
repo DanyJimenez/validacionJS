@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 40%;
+    height: 50vh;
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.formulario input {
+    width: 50%;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    /* background-color: transparent; */
+}
+
+.btnAgregar {
+    background-color: black;
+    width: 200px;
+    margin-top: 10px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.correcto {
+    background-color: lightgreen;
+    color: white;
+}
+
+.incorrecto {
+    background-color: lightcoral;
+    color: white;
+}
